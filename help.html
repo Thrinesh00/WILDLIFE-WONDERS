@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Conservation & Tracking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #374d62;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+    
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            display: inline-block;
+            padding: 14px 20px;
+            text-decoration: none;
+            color: white;
+        }
+        nav a:hover {
+            background-color: #1d925986;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    
+        #content {
+                 position: relative;
+                z-index: 1;  
+                color: rgb(208, 36, 36);
+                 padding: 0px;
+                background: rgba(0, 0, 0, 0.5); 
+                
+                
+            }  
+              ul{
+                list-style-type: none;
+                overflow: hidden;
+                background-color: rgb(190, 243, 137); 
+                padding: 0;
+                margin: 0; 
+            }
+            li{
+                float: left;
+            }
+            li a{
+                display: block;
+                text-decoration: none;
+              
+                padding: 25px 200px;
+                color: rgb(7, 13, 19);  
+              
+                font-size: 25px;
+            }
+            a{
+                float: left;
+            }
+            li a:hover{
+                background-color: rgb(17, 107, 81);
+            }
+            footer{
+              background-color: rgb(38, 65, 75);
+              text-align: center;
+              height: 80px;
+              align-content: center;
+              font-size: 30px;
+            }
+            .z{
+                height: 600px;
+            }
+    </style>
+    </head>
+    <body>
+         <!-- Header -->
+    <header>
+        <h1>Wildlife Wonders</h1>
+    </header>
+        <div class="a">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="birds.html">Birds</a></li>
+                <li><a href="help.html">help</a></li>
+            </ul>
+        </div>
+    
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, suggestions, or would like to volunteer, please fill out the form below:</p>
+        <form action="/submit_form" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <footer>
+        &copy;All copy rights are reserverd
+    </footer>
+    
+    </body>
+    </html>
